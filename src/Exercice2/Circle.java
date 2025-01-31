@@ -46,6 +46,6 @@ public class Circle {  // Save as "Circle.java"
 	 
 	// Setter for instance variable color
 	public void setColor(String newColor) {
-		
+		color = newColor;
 	}
 }
