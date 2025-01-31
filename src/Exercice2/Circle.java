@@ -21,6 +21,11 @@ public class Circle {  // Save as "Circle.java"
       color = "red";
    }
    
+   public Circle (double r, String c) {
+	   color = c;
+	   radius = r;
+   }
+   
    /** Returns the radius */
    public double getRadius() {
      return radius; 
@@ -30,4 +35,9 @@ public class Circle {  // Save as "Circle.java"
    public double getArea() {
       return radius*radius*Math.PI;
    }
+   
+   public String getColor() {
+	   
+   }
+   
 }
