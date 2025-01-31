@@ -22,7 +22,7 @@ public class Circle {  // Save as "Circle.java"
    }
    
    public Circle (double r, String c) {
-	   color = "red";
+	   color = c;
 	   radius = r;
    }
    
@@ -36,5 +36,16 @@ public class Circle {  // Save as "Circle.java"
       return radius*radius*Math.PI;
    }
    
+   public String getColor() {
+	   return color;
+   }
    
+   public void setRadius(double newRadius) {
+	   radius = newRadius;
+	}
+	 
+	// Setter for instance variable color
+	public void setColor(String newColor) {
+		
+	}
 }
