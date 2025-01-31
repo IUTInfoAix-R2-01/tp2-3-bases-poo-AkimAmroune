@@ -41,11 +41,15 @@ public class Circle {  // Save as "Circle.java"
    }
    
    public void setRadius(double newRadius) {
-	   radius = newRadius;
+	   this.radius = newRadius;
 	}
 	 
 	// Setter for instance variable color
 	public void setColor(String newColor) {
-		color = newColor;
+		this.color = newColor;
 	}
+	
+	public String toString() {
+		   return "Circle[radius=" + radius + " color=" + color + "]";
+		}
 }
